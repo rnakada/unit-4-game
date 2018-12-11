@@ -5,7 +5,6 @@
 body {
     background-image: url(../images/planet-namek.png);
     background-size: cover;
-    background
 }
 
 .text-center {
@@ -15,7 +14,7 @@ body {
 #bigbox {
     /* border: 1px solid purple; */
     width: 50%;
-    /* margin: auto; */
+    margin: auto;
 }
 
 #header {
@@ -115,9 +114,47 @@ body {
     font-size: 50px;
 }
 
-/* @media screen and (max-width: 1400px) {
-    .container {
+@media only screen and (max-width: 960px) {
+    #bigbox {
         width: 100%;
     }
 
-} */
+    body {
+        background-image: url(../images/Kame_House.png);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(../images/Kame_House.png);
+    }
+
+    #bigbox {
+        width: 100%;
+    }
+
+    #header {
+        font-size: 30px;
+    }
+
+    #generateNumber {
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+    }
+
+    #win-loss {
+        position: relative;
+        top: 50px;
+    }
+
+    #player {
+        position: relative;
+        top: 50px;
+    }
+
+    #playerScore {
+        position: relative;
+        top: 50px;
+    }
+}
