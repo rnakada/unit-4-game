@@ -159,13 +159,11 @@ body {
     }
 
     .crystals {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 75px;
         width: 75px;
         display: inline-block;
         margin-top: 75px;
-        /* margin-top: 10px;
-        margin-left: 20px; */
     }
 
     .dragonball {
